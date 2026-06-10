@@ -1,0 +1,292 @@
+⚠ Port 3000 is in use by process 15524, using available port 3001 instead.
+TypeError: fetch failed
+    at ignore-listed frames {
+  [cause]: Error [ConnectTimeoutError]: Connect Timeout Error (attempted address: bzbvbqlpxdxghpbwqpwd.supabase.co:443, timeout: 10000ms)
+      at ignore-listed frames {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+TypeError: fetch failed
+    at ignore-listed frames {
+  [cause]: Error: getaddrinfo ENOTFOUND bzbvbqlpxdxghpbwqpwd.supabase.co
+      at ignore-listed frames {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'bzbvbqlpxdxghpbwqpwd.supabase.co'
+  }
+}
+TypeError: fetch failed
+    at ignore-listed frames {
+  [cause]: Error [ConnectTimeoutError]: Connect Timeout Error (attempted addresses: 104.18.38.10:443, 172.64.149.246:443, timeout: 10000ms)
+      at ignore-listed frames {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+TypeError: fetch failed
+    at ignore-listed frames {
+  [cause]: Error [ConnectTimeoutError]: Connect Timeout Error (attempted addresses: 104.18.38.10:443, 172.64.149.246:443, timeout: 10000ms)
+      at ignore-listed frames {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+Error [AuthRetryableFetchError]: fetch failed
+    at ignore-listed frames {
+  __isAuthError: true,
+  status: 0,
+  code: undefined
+}
+Error [AuthRetryableFetchError]: fetch failed
+    at ignore-listed frames {
+  __isAuthError: true,
+  status: 0,
+  code: undefined
+}
+TypeError: fetch failed
+    at ignore-listed frames {
+  [cause]: Error [ConnectTimeoutError]: Connect Timeout Error (attempted addresses: 104.18.38.10:443, 172.64.149.246:443, timeout: 10000ms)
+      at ignore-listed frames {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+⨯ Error: Invalid supabaseUrl: Must be a valid HTTP or HTTPS URL.
+    at updateSession (utils\supabase\middleware.ts:7:38)
+    at proxy (proxy.ts:12:23)
+   5 |   let supabaseResponse = NextResponse.next({ request });
+   6 |
+>  7 |   const supabase = createServerClient(
+     |                                      ^
+   8 |     process.env.NEXT_PUBLIC_SUPABASE_URL!,
+   9 |     process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
+  10 |     {
+⨯ Error: Invalid supabaseUrl: Must be a valid HTTP or HTTPS URL.
+    at updateSession (utils\supabase\middleware.ts:7:38)
+    at proxy (proxy.ts:12:23)
+   5 |   let supabaseResponse = NextResponse.next({ request });
+   6 |
+>  7 |   const supabase = createServerClient(
+     |                                      ^
+   8 |     process.env.NEXT_PUBLIC_SUPABASE_URL!,
+   9 |     process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
+  10 |     {
+⨯ Error: Invalid supabaseUrl: Must be a valid HTTP or HTTPS URL.
+    at updateSession (utils\supabase\middleware.ts:7:38)
+    at proxy (proxy.ts:12:23)
+   5 |   let supabaseResponse = NextResponse.next({ request });
+   6 |
+>  7 |   const supabase = createServerClient(
+     |                                      ^
+   8 |     process.env.NEXT_PUBLIC_SUPABASE_URL!,
+   9 |     process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
+  10 |     {
+[browser] Uncaught Error: Invalid supabaseUrl: Must be a valid HTTP or HTTPS URL.
+    at validateSupabaseUrl (file://C:\Users\User Ob\Desktop\Gym-management\.next\dev\server\chunks\node_modules_0u2dyjk._.js:9287:51)
+    at new SupabaseClient (file://C:\Users\User Ob\Desktop\Gym-management\.next\dev\server\chunks\node_modules_0u2dyjk._.js:9522:25)
+    at createClient (file://C:\Users\User Ob\Desktop\Gym-management\.next\dev\server\chunks\node_modules_0u2dyjk._.js:9749:12)
+    at createServerClient (file://C:\Users\User Ob\Desktop\Gym-management\.next\dev\server\chunks\node_modules_0u2dyjk._.js:10571:215)
+    at updateSession (file://C:\Users\User Ob\Desktop\Gym-management\.next\dev\server\chunks\[root-of-the-server]__09n_wdq._.js:89:218)
+    at proxy (file://C:\Users\User Ob\Desktop\Gym-management\.next\dev\server\chunks\[root-of-the-server]__09n_wdq._.js:159:161)
+    at <unknown> (file://C:\Users\User Ob\Desktop\Gym-management\.next\dev\server\chunks\node_modules_next_0r5koz9._.js:19635:26)
+    at <unknown> (file://C:\Users\User Ob\Desktop\Gym-management\.next\dev\server\chunks\node_modules_next_0r5koz9._.js:7107:633)
+    at <unknown> (file://C:\Users\User Ob\Desktop\Gym-management\.next\dev\server\chunks\node_modules_next_0r5koz9._.js:7107:314)
+    at async adapter (file://C:\Users\User Ob\Desktop\Gym-management\.next\dev\server\chunks\node_modules_next_0r5koz9._.js:7061:16)
+[browser] Uncaught Error: Invalid supabaseUrl: Must be a valid HTTP or HTTPS URL.
+    at validateSupabaseUrl (file://C:\Users\User Ob\Desktop\Gym-management\.next\dev\server\chunks\node_modules_0u2dyjk._.js:9287:51)
+    at new SupabaseClient (file://C:\Users\User Ob\Desktop\Gym-management\.next\dev\server\chunks\node_modules_0u2dyjk._.js:9522:25)
+    at createClient (file://C:\Users\User Ob\Desktop\Gym-management\.next\dev\server\chunks\node_modules_0u2dyjk._.js:9749:12)
+    at createServerClient (file://C:\Users\User Ob\Desktop\Gym-management\.next\dev\server\chunks\node_modules_0u2dyjk._.js:10571:215)
+    at updateSession (file://C:\Users\User Ob\Desktop\Gym-management\.next\dev\server\chunks\[root-of-the-server]__09n_wdq._.js:89:218)
+    at proxy (file://C:\Users\User Ob\Desktop\Gym-management\.next\dev\server\chunks\[root-of-the-server]__09n_wdq._.js:159:161)
+    at <unknown> (file://C:\Users\User Ob\Desktop\Gym-management\.next\dev\server\chunks\node_modules_next_0r5koz9._.js:19635:26)
+    at <unknown> (file://C:\Users\User Ob\Desktop\Gym-management\.next\dev\server\chunks\node_modules_next_0r5koz9._.js:7107:633)
+    at <unknown> (file://C:\Users\User Ob\Desktop\Gym-management\.next\dev\server\chunks\node_modules_next_0r5koz9._.js:7107:314)
+    at async adapter (file://C:\Users\User Ob\Desktop\Gym-management\.next\dev\server\chunks\node_modules_next_0r5koz9._.js:7061:16)
+[browser] Uncaught Error: Invalid supabaseUrl: Must be a valid HTTP or HTTPS URL.
+    at validateSupabaseUrl (file://C:\Users\User Ob\Desktop\Gym-management\.next\dev\server\chunks\node_modules_0u2dyjk._.js:9287:51)
+    at new SupabaseClient (file://C:\Users\User Ob\Desktop\Gym-management\.next\dev\server\chunks\node_modules_0u2dyjk._.js:9522:25)
+    at createClient (file://C:\Users\User Ob\Desktop\Gym-management\.next\dev\server\chunks\node_modules_0u2dyjk._.js:9749:12)
+    at createServerClient (file://C:\Users\User Ob\Desktop\Gym-management\.next\dev\server\chunks\node_modules_0u2dyjk._.js:10571:215)
+    at updateSession (file://C:\Users\User Ob\Desktop\Gym-management\.next\dev\server\chunks\[root-of-the-server]__09n_wdq._.js:89:218)
+    at proxy (file://C:\Users\User Ob\Desktop\Gym-management\.next\dev\server\chunks\[root-of-the-server]__09n_wdq._.js:159:161)
+    at <unknown> (file://C:\Users\User Ob\Desktop\Gym-management\.next\dev\server\chunks\node_modules_next_0r5koz9._.js:19635:26)
+    at <unknown> (file://C:\Users\User Ob\Desktop\Gym-management\.next\dev\server\chunks\node_modules_next_0r5koz9._.js:7107:633)
+    at <unknown> (file://C:\Users\User Ob\Desktop\Gym-management\.next\dev\server\chunks\node_modules_next_0r5koz9._.js:7107:314)
+    at async adapter (file://C:\Users\User Ob\Desktop\Gym-management\.next\dev\server\chunks\node_modules_next_0r5koz9._.js:7061:16)
+⨯ Error: Invalid supabaseUrl: Must be a valid HTTP or HTTPS URL.
+    at updateSession (utils\supabase\middleware.ts:7:38)
+    at proxy (proxy.ts:12:23)
+   5 |   let supabaseResponse = NextResponse.next({ request });
+   6 |
+>  7 |   const supabase = createServerClient(
+     |                                      ^
+   8 |     process.env.NEXT_PUBLIC_SUPABASE_URL!,
+   9 |     process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
+  10 |     {
+⨯ Error: Invalid supabaseUrl: Must be a valid HTTP or HTTPS URL.
+    at updateSession (utils\supabase\middleware.ts:7:38)
+    at proxy (proxy.ts:12:23)
+   5 |   let supabaseResponse = NextResponse.next({ request });
+   6 |
+>  7 |   const supabase = createServerClient(
+     |                                      ^
+   8 |     process.env.NEXT_PUBLIC_SUPABASE_URL!,
+   9 |     process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
+  10 |     {
+⨯ Error: Invalid supabaseUrl: Must be a valid HTTP or HTTPS URL.
+    at updateSession (utils\supabase\middleware.ts:7:38)
+    at proxy (proxy.ts:12:23)
+   5 |   let supabaseResponse = NextResponse.next({ request });
+   6 |
+>  7 |   const supabase = createServerClient(
+     |                                      ^
+   8 |     process.env.NEXT_PUBLIC_SUPABASE_URL!,
+   9 |     process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
+  10 |     {
+⨯ Error: Invalid supabaseUrl: Must be a valid HTTP or HTTPS URL.
+    at updateSession (utils\supabase\middleware.ts:7:38)
+    at proxy (proxy.ts:12:23)
+   5 |   let supabaseResponse = NextResponse.next({ request });
+   6 |
+>  7 |   const supabase = createServerClient(
+     |                                      ^
+   8 |     process.env.NEXT_PUBLIC_SUPABASE_URL!,
+   9 |     process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
+  10 |     {
+⨯ Error: Invalid supabaseUrl: Must be a valid HTTP or HTTPS URL.
+    at updateSession (utils\supabase\middleware.ts:7:38)
+    at proxy (proxy.ts:12:23)
+   5 |   let supabaseResponse = NextResponse.next({ request });
+   6 |
+>  7 |   const supabase = createServerClient(
+     |                                      ^
+   8 |     process.env.NEXT_PUBLIC_SUPABASE_URL!,
+   9 |     process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
+  10 |     {
+⨯ Error: Invalid supabaseUrl: Must be a valid HTTP or HTTPS URL.
+    at updateSession (utils\supabase\middleware.ts:7:38)
+    at proxy (proxy.ts:12:23)
+   5 |   let supabaseResponse = NextResponse.next({ request });
+   6 |
+>  7 |   const supabase = createServerClient(
+     |                                      ^
+   8 |     process.env.NEXT_PUBLIC_SUPABASE_URL!,
+   9 |     process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
+  10 |     {
+⨯ Error: Invalid supabaseUrl: Must be a valid HTTP or HTTPS URL.
+    at updateSession (utils\supabase\middleware.ts:7:38)
+    at proxy (proxy.ts:12:23)
+   5 |   let supabaseResponse = NextResponse.next({ request });
+   6 |
+>  7 |   const supabase = createServerClient(
+     |                                      ^
+   8 |     process.env.NEXT_PUBLIC_SUPABASE_URL!,
+   9 |     process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
+  10 |     {
+[browser] Uncaught Error: Invalid supabaseUrl: Must be a valid HTTP or HTTPS URL.
+    at validateSupabaseUrl (file://C:\Users\User Ob\Desktop\Gym-management\.next\dev\server\chunks\node_modules_0u2dyjk._.js:9287:51)
+    at new SupabaseClient (file://C:\Users\User Ob\Desktop\Gym-management\.next\dev\server\chunks\node_modules_0u2dyjk._.js:9522:25)
+    at createClient (file://C:\Users\User Ob\Desktop\Gym-management\.next\dev\server\chunks\node_modules_0u2dyjk._.js:9749:12)
+    at createServerClient (file://C:\Users\User Ob\Desktop\Gym-management\.next\dev\server\chunks\node_modules_0u2dyjk._.js:10571:215)
+    at updateSession (file://C:\Users\User Ob\Desktop\Gym-management\.next\dev\server\chunks\[root-of-the-server]__09n_wdq._.js:89:218)
+    at proxy (file://C:\Users\User Ob\Desktop\Gym-management\.next\dev\server\chunks\[root-of-the-server]__09n_wdq._.js:159:161)
+    at <unknown> (file://C:\Users\User Ob\Desktop\Gym-management\.next\dev\server\chunks\node_modules_next_0r5koz9._.js:19635:26)
+    at <unknown> (file://C:\Users\User Ob\Desktop\Gym-management\.next\dev\server\chunks\node_modules_next_0r5koz9._.js:7107:633)
+    at <unknown> (file://C:\Users\User Ob\Desktop\Gym-management\.next\dev\server\chunks\node_modules_next_0r5koz9._.js:7107:314)
+    at async adapter (file://C:\Users\User Ob\Desktop\Gym-management\.next\dev\server\chunks\node_modules_next_0r5koz9._.js:7061:16)
+⨯ Error: Invalid supabaseUrl: Must be a valid HTTP or HTTPS URL.
+    at updateSession (utils\supabase\middleware.ts:7:38)
+    at proxy (proxy.ts:12:23)
+   5 |   let supabaseResponse = NextResponse.next({ request });
+   6 |
+>  7 |   const supabase = createServerClient(
+     |                                      ^
+   8 |     process.env.NEXT_PUBLIC_SUPABASE_URL!,
+   9 |     process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
+  10 |     {
+[browser] Uncaught Error: Invalid supabaseUrl: Must be a valid HTTP or HTTPS URL.
+    at validateSupabaseUrl (file://C:\Users\User Ob\Desktop\Gym-management\.next\dev\server\chunks\node_modules_0u2dyjk._.js:9287:51)
+    at new SupabaseClient (file://C:\Users\User Ob\Desktop\Gym-management\.next\dev\server\chunks\node_modules_0u2dyjk._.js:9522:25)
+    at createClient (file://C:\Users\User Ob\Desktop\Gym-management\.next\dev\server\chunks\node_modules_0u2dyjk._.js:9749:12)
+    at createServerClient (file://C:\Users\User Ob\Desktop\Gym-management\.next\dev\server\chunks\node_modules_0u2dyjk._.js:10571:215)
+    at updateSession (file://C:\Users\User Ob\Desktop\Gym-management\.next\dev\server\chunks\[root-of-the-server]__09n_wdq._.js:89:218)
+    at proxy (file://C:\Users\User Ob\Desktop\Gym-management\.next\dev\server\chunks\[root-of-the-server]__09n_wdq._.js:159:161)
+    at <unknown> (file://C:\Users\User Ob\Desktop\Gym-management\.next\dev\server\chunks\node_modules_next_0r5koz9._.js:19635:26)
+    at <unknown> (file://C:\Users\User Ob\Desktop\Gym-management\.next\dev\server\chunks\node_modules_next_0r5koz9._.js:7107:633)
+    at <unknown> (file://C:\Users\User Ob\Desktop\Gym-management\.next\dev\server\chunks\node_modules_next_0r5koz9._.js:7107:314)
+    at async adapter (file://C:\Users\User Ob\Desktop\Gym-management\.next\dev\server\chunks\node_modules_next_0r5koz9._.js:7061:16)
+TypeError: fetch failed
+    at async updateSession (utils\supabase\middleware.ts:33:7)
+  31 |     data: { user },
+  32 |     error,
+> 33 |   } = await supabase.auth.getUser();
+     |       ^
+  34 |
+  35 |   console.log("USER", user);
+  36 |   console.log("ERROR", error); {
+  [cause]: Error [ConnectTimeoutError]: Connect Timeout Error (attempted addresses: 172.64.149.246:443, 104.18.38.10:443, timeout: 10000ms)
+      at ignore-listed frames {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+TypeError: fetch failed
+    at async updateSession (utils\supabase\middleware.ts:33:7)
+  31 |     data: { user },
+  32 |     error,
+> 33 |   } = await supabase.auth.getUser();
+     |       ^
+  34 |
+  35 |   console.log("USER", user);
+  36 |   console.log("ERROR", error); {
+  [cause]: Error [ConnectTimeoutError]: Connect Timeout Error (attempted addresses: 172.64.149.246:443, 104.18.38.10:443, timeout: 10000ms)
+      at ignore-listed frames {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+TypeError: fetch failed
+    at async updateSession (utils\supabase\middleware.ts:33:7)
+  31 |     data: { user },
+  32 |     error,
+> 33 |   } = await supabase.auth.getUser();
+     |       ^
+  34 |
+  35 |   console.log("USER", user);
+  36 |   console.log("ERROR", error); {
+  [cause]: Error: read ECONNRESET
+      at ignore-listed frames {
+    errno: -4077,
+    code: 'ECONNRESET',
+    syscall: 'read'
+  }
+}
+TypeError: fetch failed
+    at async updateSession (utils\supabase\middleware.ts:33:7)
+  31 |     data: { user },
+  32 |     error,
+> 33 |   } = await supabase.auth.getUser();
+     |       ^
+  34 |
+  35 |   console.log("USER", user);
+  36 |   console.log("ERROR", error); {
+  [cause]: Error: read ECONNRESET
+      at ignore-listed frames {
+    errno: -4077,
+    code: 'ECONNRESET',
+    syscall: 'read'
+  }
+}
+TypeError: fetch failed
+    at async updateSession (utils\supabase\middleware.ts:33:7)
+  31 |     data: { user },
+  32 |     error,
+> 33 |   } = await supabase.auth.getUser();
+     |       ^
+  34 |
+  35 |   console.log("USER", user);
+  36 |   console.log("ERROR", error); {
+  [cause]: Error: read ECONNRESET
+      at ignore-listed frames {
+    errno: -4077,
+    code: 'ECONNRESET',
+    syscall: 'read'
+  }
+}

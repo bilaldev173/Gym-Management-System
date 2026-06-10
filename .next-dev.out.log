@@ -1,0 +1,1699 @@
+
+> gym-management@0.1.0 dev
+> next dev
+
+▲ Next.js 16.2.7 (Turbopack)
+- Local:         http://localhost:3001
+- Network:       http://192.168.174.1:3001
+- Environments: .env.local
+✓ Ready in 1867ms
+
+ GET /dashboard?redirectedFrom=%2Fsubscriptions 200 in 5.7s (next.js: 1276ms, proxy.ts: 449ms, application-code: 4.0s)
+  Reload env: .env.local
+✓ Compiled in 943ms
+  Reload env: .env.local
+✓ Compiled in 120ms
+  Reload env: .env.local
+✓ Compiled in 48ms
+✓ Compiled in 394ms
+ GET / 404 in 2.3s (next.js: -616505µs, proxy.ts: 2.3s, application-code: 617ms)
+ GET / 404 in 224ms (next.js: -34052µs, proxy.ts: 213ms, application-code: 45ms)
+ GET / 404 in 336ms (next.js: -43426µs, proxy.ts: 321ms, application-code: 58ms)
+○ Compiling /_not-found/page ...
+  Reload env: .env.local
+✓ Compiled in 363ms
+✓ Compiled in 0ms
+ GET / 404 in 1761ms (next.js: -21518µs, proxy.ts: 1757ms, application-code: 25ms)
+ GET / 404 in 299ms (next.js: -46756µs, proxy.ts: 280ms, application-code: 66ms)
+  Reload env: .env.local
+✓ Compiled in 0ms
+ GET /login 200 in 970ms (next.js: 415ms, proxy.ts: 12ms, application-code: 543ms)
+  Reload env: .env.local
+✓ Compiled in 134ms
+ GET /login 200 in 894ms (next.js: 356ms, proxy.ts: 329ms, application-code: 209ms)
+ GET /login 200 in 343ms (next.js: 9ms, proxy.ts: 15ms, application-code: 319ms)
+ GET /login 200 in 259ms (next.js: 83ms, proxy.ts: 39ms, application-code: 137ms)
+ GET /login 200 in 263ms (next.js: 40ms, proxy.ts: 32ms, application-code: 191ms)
+ GET /login 200 in 261ms (next.js: 119ms, proxy.ts: 42ms, application-code: 99ms)
+ GET /login 200 in 261ms (next.js: 162ms, proxy.ts: 45ms, application-code: 54ms)
+ GET /login 200 in 504ms (next.js: 15ms, proxy.ts: 32ms, application-code: 456ms)
+✓ Compiled in 457ms
+  Reload env: .env.local
+✓ Compiled in 233ms
+ GET /login 200 in 451ms (next.js: 155ms, proxy.ts: 211ms, application-code: 85ms)
+ GET /login 200 in 113ms (next.js: 8ms, proxy.ts: 10ms, application-code: 96ms)
+ GET /login 200 in 214ms (next.js: 4ms, proxy.ts: 9ms, application-code: 201ms)
+ GET /login 200 in 170ms (next.js: 22ms, proxy.ts: 21ms, application-code: 127ms)
+ GET /login 200 in 169ms (next.js: 97ms, proxy.ts: 27ms, application-code: 44ms)
+ GET /login 200 in 172ms (next.js: 60ms, proxy.ts: 24ms, application-code: 87ms)
+  Reload env: .env.local
+✓ Compiled in 288ms
+○ Compiling /register ...
+ GET /register 200 in 6.0s (next.js: 5.3s, proxy.ts: 620ms, application-code: 173ms)
+ GET /login 200 in 916ms (next.js: 585ms, proxy.ts: 166ms, application-code: 166ms)
+ GET /login 200 in 755ms (next.js: 13ms, proxy.ts: 21ms, application-code: 721ms)
+USER null
+ERROR Error [AuthSessionMissingError]: Auth session missing!
+    at async updateSession (utils\supabase\middleware.ts:33:7)
+  31 |     data: { user },
+  32 |     error,
+> 33 |   } = await supabase.auth.getUser();
+     |       ^
+  34 |
+  35 |   console.log("USER", user);
+  36 |   console.log("ERROR", error); {
+  __isAuthError: true,
+  status: 400,
+  code: undefined
+}
+✓ Compiled in 0ms
+ GET /login 200 in 2.1s (next.js: 278ms, proxy.ts: 1585ms, application-code: 216ms)
+USER null
+ERROR Error [AuthSessionMissingError]: Auth session missing!
+    at async updateSession (utils\supabase\middleware.ts:33:7)
+  31 |     data: { user },
+  32 |     error,
+> 33 |   } = await supabase.auth.getUser();
+     |       ^
+  34 |
+  35 |   console.log("USER", user);
+  36 |   console.log("ERROR", error); {
+  __isAuthError: true,
+  status: 400,
+  code: undefined
+}
+USER null
+ERROR Error [AuthSessionMissingError]: Auth session missing!
+    at async updateSession (utils\supabase\middleware.ts:33:7)
+  31 |     data: { user },
+  32 |     error,
+> 33 |   } = await supabase.auth.getUser();
+     |       ^
+  34 |
+  35 |   console.log("USER", user);
+  36 |   console.log("ERROR", error); {
+  __isAuthError: true,
+  status: 400,
+  code: undefined
+}
+ GET /login 200 in 1051ms (next.js: 16ms, proxy.ts: 180ms, application-code: 855ms)
+USER {
+  id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'bilaldarif25@gmail.com',
+  email_confirmed_at: '2026-06-09T21:02:56.162841Z',
+  phone: '',
+  confirmed_at: '2026-06-09T21:02:56.162841Z',
+  last_sign_in_at: '2026-06-09T21:21:27.023462Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: { email_verified: true },
+  identities: [
+    {
+      identity_id: '7a5bb7e4-248a-448c-a127-6128b369f775',
+      id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      user_id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      identity_data: [Object],
+      provider: 'email',
+      last_sign_in_at: '2026-06-09T21:02:56.150276Z',
+      created_at: '2026-06-09T21:02:56.150851Z',
+      updated_at: '2026-06-09T21:02:56.150851Z',
+      email: 'bilaldarif25@gmail.com'
+    }
+  ],
+  created_at: '2026-06-09T21:02:56.138763Z',
+  updated_at: '2026-06-09T21:21:27.048842Z',
+  is_anonymous: false
+}
+ERROR null
+USER {
+  id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'bilaldarif25@gmail.com',
+  email_confirmed_at: '2026-06-09T21:02:56.162841Z',
+  phone: '',
+  confirmed_at: '2026-06-09T21:02:56.162841Z',
+  last_sign_in_at: '2026-06-09T21:21:27.023462Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: { email_verified: true },
+  identities: [
+    {
+      identity_id: '7a5bb7e4-248a-448c-a127-6128b369f775',
+      id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      user_id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      identity_data: [Object],
+      provider: 'email',
+      last_sign_in_at: '2026-06-09T21:02:56.150276Z',
+      created_at: '2026-06-09T21:02:56.150851Z',
+      updated_at: '2026-06-09T21:02:56.150851Z',
+      email: 'bilaldarif25@gmail.com'
+    }
+  ],
+  created_at: '2026-06-09T21:02:56.138763Z',
+  updated_at: '2026-06-09T21:21:27.048842Z',
+  is_anonymous: false
+}
+ERROR null
+ GET /dashboard 200 in 1817ms (next.js: 12ms, proxy.ts: 461ms, application-code: 1344ms)
+ GET /dashboard 200 in 3.4s (next.js: 527ms, proxy.ts: 569ms, application-code: 2.3s)
+USER {
+  id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'bilaldarif25@gmail.com',
+  email_confirmed_at: '2026-06-09T21:02:56.162841Z',
+  phone: '',
+  confirmed_at: '2026-06-09T21:02:56.162841Z',
+  last_sign_in_at: '2026-06-09T21:21:27.023462Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: { email_verified: true },
+  identities: [
+    {
+      identity_id: '7a5bb7e4-248a-448c-a127-6128b369f775',
+      id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      user_id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      identity_data: [Object],
+      provider: 'email',
+      last_sign_in_at: '2026-06-09T21:02:56.150276Z',
+      created_at: '2026-06-09T21:02:56.150851Z',
+      updated_at: '2026-06-09T21:02:56.150851Z',
+      email: 'bilaldarif25@gmail.com'
+    }
+  ],
+  created_at: '2026-06-09T21:02:56.138763Z',
+  updated_at: '2026-06-09T21:21:27.048842Z',
+  is_anonymous: false
+}
+ERROR null
+ GET /dashboard 200 in 3.5s (next.js: 15ms, proxy.ts: 684ms, application-code: 2.8s)
+USER {
+  id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'bilaldarif25@gmail.com',
+  email_confirmed_at: '2026-06-09T21:02:56.162841Z',
+  phone: '',
+  confirmed_at: '2026-06-09T21:02:56.162841Z',
+  last_sign_in_at: '2026-06-09T21:21:27.023462Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: { email_verified: true },
+  identities: [
+    {
+      identity_id: '7a5bb7e4-248a-448c-a127-6128b369f775',
+      id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      user_id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      identity_data: [Object],
+      provider: 'email',
+      last_sign_in_at: '2026-06-09T21:02:56.150276Z',
+      created_at: '2026-06-09T21:02:56.150851Z',
+      updated_at: '2026-06-09T21:02:56.150851Z',
+      email: 'bilaldarif25@gmail.com'
+    }
+  ],
+  created_at: '2026-06-09T21:02:56.138763Z',
+  updated_at: '2026-06-09T21:21:27.048842Z',
+  is_anonymous: false
+}
+ERROR null
+ GET /members 200 in 728ms (next.js: 257ms, proxy.ts: 341ms, application-code: 131ms)
+USER {
+  id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'bilaldarif25@gmail.com',
+  email_confirmed_at: '2026-06-09T21:02:56.162841Z',
+  phone: '',
+  confirmed_at: '2026-06-09T21:02:56.162841Z',
+  last_sign_in_at: '2026-06-09T21:21:27.023462Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: { email_verified: true },
+  identities: [
+    {
+      identity_id: '7a5bb7e4-248a-448c-a127-6128b369f775',
+      id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      user_id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      identity_data: [Object],
+      provider: 'email',
+      last_sign_in_at: '2026-06-09T21:02:56.150276Z',
+      created_at: '2026-06-09T21:02:56.150851Z',
+      updated_at: '2026-06-09T21:02:56.150851Z',
+      email: 'bilaldarif25@gmail.com'
+    }
+  ],
+  created_at: '2026-06-09T21:02:56.138763Z',
+  updated_at: '2026-06-09T21:21:27.048842Z',
+  is_anonymous: false
+}
+ERROR null
+ GET /subscriptions 200 in 367ms (next.js: 106ms, proxy.ts: 209ms, application-code: 53ms)
+USER {
+  id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'bilaldarif25@gmail.com',
+  email_confirmed_at: '2026-06-09T21:02:56.162841Z',
+  phone: '',
+  confirmed_at: '2026-06-09T21:02:56.162841Z',
+  last_sign_in_at: '2026-06-09T21:21:27.023462Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: { email_verified: true },
+  identities: [
+    {
+      identity_id: '7a5bb7e4-248a-448c-a127-6128b369f775',
+      id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      user_id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      identity_data: [Object],
+      provider: 'email',
+      last_sign_in_at: '2026-06-09T21:02:56.150276Z',
+      created_at: '2026-06-09T21:02:56.150851Z',
+      updated_at: '2026-06-09T21:02:56.150851Z',
+      email: 'bilaldarif25@gmail.com'
+    }
+  ],
+  created_at: '2026-06-09T21:02:56.138763Z',
+  updated_at: '2026-06-09T21:21:27.048842Z',
+  is_anonymous: false
+}
+ERROR null
+○ Compiling /check-in ...
+ GET /check-in 200 in 4.6s (next.js: 4.0s, proxy.ts: 364ms, application-code: 256ms)
+USER {
+  id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'bilaldarif25@gmail.com',
+  email_confirmed_at: '2026-06-09T21:02:56.162841Z',
+  phone: '',
+  confirmed_at: '2026-06-09T21:02:56.162841Z',
+  last_sign_in_at: '2026-06-09T21:21:27.023462Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: { email_verified: true },
+  identities: [
+    {
+      identity_id: '7a5bb7e4-248a-448c-a127-6128b369f775',
+      id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      user_id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      identity_data: [Object],
+      provider: 'email',
+      last_sign_in_at: '2026-06-09T21:02:56.150276Z',
+      created_at: '2026-06-09T21:02:56.150851Z',
+      updated_at: '2026-06-09T21:02:56.150851Z',
+      email: 'bilaldarif25@gmail.com'
+    }
+  ],
+  created_at: '2026-06-09T21:02:56.138763Z',
+  updated_at: '2026-06-09T21:21:27.048842Z',
+  is_anonymous: false
+}
+ERROR null
+ GET /billing 200 in 1868ms (next.js: 1461ms, proxy.ts: 350ms, application-code: 57ms)
+USER {
+  id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'bilaldarif25@gmail.com',
+  email_confirmed_at: '2026-06-09T21:02:56.162841Z',
+  phone: '',
+  confirmed_at: '2026-06-09T21:02:56.162841Z',
+  last_sign_in_at: '2026-06-09T21:21:27.023462Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: { email_verified: true },
+  identities: [
+    {
+      identity_id: '7a5bb7e4-248a-448c-a127-6128b369f775',
+      id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      user_id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      identity_data: [Object],
+      provider: 'email',
+      last_sign_in_at: '2026-06-09T21:02:56.150276Z',
+      created_at: '2026-06-09T21:02:56.150851Z',
+      updated_at: '2026-06-09T21:02:56.150851Z',
+      email: 'bilaldarif25@gmail.com'
+    }
+  ],
+  created_at: '2026-06-09T21:02:56.138763Z',
+  updated_at: '2026-06-09T21:21:27.048842Z',
+  is_anonymous: false
+}
+ERROR null
+ GET /subscriptions 200 in 510ms (next.js: 41ms, proxy.ts: 371ms, application-code: 97ms)
+USER {
+  id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'bilaldarif25@gmail.com',
+  email_confirmed_at: '2026-06-09T21:02:56.162841Z',
+  phone: '',
+  confirmed_at: '2026-06-09T21:02:56.162841Z',
+  last_sign_in_at: '2026-06-09T21:21:27.023462Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: { email_verified: true },
+  identities: [
+    {
+      identity_id: '7a5bb7e4-248a-448c-a127-6128b369f775',
+      id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      user_id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      identity_data: [Object],
+      provider: 'email',
+      last_sign_in_at: '2026-06-09T21:02:56.150276Z',
+      created_at: '2026-06-09T21:02:56.150851Z',
+      updated_at: '2026-06-09T21:02:56.150851Z',
+      email: 'bilaldarif25@gmail.com'
+    }
+  ],
+  created_at: '2026-06-09T21:02:56.138763Z',
+  updated_at: '2026-06-09T21:21:27.048842Z',
+  is_anonymous: false
+}
+ERROR null
+USER {
+  id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'bilaldarif25@gmail.com',
+  email_confirmed_at: '2026-06-09T21:02:56.162841Z',
+  phone: '',
+  confirmed_at: '2026-06-09T21:02:56.162841Z',
+  last_sign_in_at: '2026-06-09T21:21:27.023462Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: { email_verified: true },
+  identities: [
+    {
+      identity_id: '7a5bb7e4-248a-448c-a127-6128b369f775',
+      id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      user_id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      identity_data: [Object],
+      provider: 'email',
+      last_sign_in_at: '2026-06-09T21:02:56.150276Z',
+      created_at: '2026-06-09T21:02:56.150851Z',
+      updated_at: '2026-06-09T21:02:56.150851Z',
+      email: 'bilaldarif25@gmail.com'
+    }
+  ],
+  created_at: '2026-06-09T21:02:56.138763Z',
+  updated_at: '2026-06-09T21:21:27.048842Z',
+  is_anonymous: false
+}
+ERROR null
+ GET /dashboard 200 in 3.3s (next.js: 38ms, proxy.ts: 182ms, application-code: 3.1s)
+USER {
+  id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'bilaldarif25@gmail.com',
+  email_confirmed_at: '2026-06-09T21:02:56.162841Z',
+  phone: '',
+  confirmed_at: '2026-06-09T21:02:56.162841Z',
+  last_sign_in_at: '2026-06-09T21:21:27.023462Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: { email_verified: true },
+  identities: [
+    {
+      identity_id: '7a5bb7e4-248a-448c-a127-6128b369f775',
+      id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      user_id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      identity_data: [Object],
+      provider: 'email',
+      last_sign_in_at: '2026-06-09T21:02:56.150276Z',
+      created_at: '2026-06-09T21:02:56.150851Z',
+      updated_at: '2026-06-09T21:02:56.150851Z',
+      email: 'bilaldarif25@gmail.com'
+    }
+  ],
+  created_at: '2026-06-09T21:02:56.138763Z',
+  updated_at: '2026-06-09T21:21:27.048842Z',
+  is_anonymous: false
+}
+ERROR null
+ GET /members 200 in 552ms (next.js: 14ms, proxy.ts: 426ms, application-code: 113ms)
+USER {
+  id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'bilaldarif25@gmail.com',
+  email_confirmed_at: '2026-06-09T21:02:56.162841Z',
+  phone: '',
+  confirmed_at: '2026-06-09T21:02:56.162841Z',
+  last_sign_in_at: '2026-06-09T21:21:27.023462Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: { email_verified: true },
+  identities: [
+    {
+      identity_id: '7a5bb7e4-248a-448c-a127-6128b369f775',
+      id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      user_id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      identity_data: [Object],
+      provider: 'email',
+      last_sign_in_at: '2026-06-09T21:02:56.150276Z',
+      created_at: '2026-06-09T21:02:56.150851Z',
+      updated_at: '2026-06-09T21:02:56.150851Z',
+      email: 'bilaldarif25@gmail.com'
+    }
+  ],
+  created_at: '2026-06-09T21:02:56.138763Z',
+  updated_at: '2026-06-09T21:21:27.048842Z',
+  is_anonymous: false
+}
+ERROR null
+ GET /subscriptions 200 in 748ms (next.js: 9ms, proxy.ts: 684ms, application-code: 54ms)
+USER {
+  id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'bilaldarif25@gmail.com',
+  email_confirmed_at: '2026-06-09T21:02:56.162841Z',
+  phone: '',
+  confirmed_at: '2026-06-09T21:02:56.162841Z',
+  last_sign_in_at: '2026-06-09T21:21:27.023462Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: { email_verified: true },
+  identities: [
+    {
+      identity_id: '7a5bb7e4-248a-448c-a127-6128b369f775',
+      id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      user_id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      identity_data: [Object],
+      provider: 'email',
+      last_sign_in_at: '2026-06-09T21:02:56.150276Z',
+      created_at: '2026-06-09T21:02:56.150851Z',
+      updated_at: '2026-06-09T21:02:56.150851Z',
+      email: 'bilaldarif25@gmail.com'
+    }
+  ],
+  created_at: '2026-06-09T21:02:56.138763Z',
+  updated_at: '2026-06-09T21:21:27.048842Z',
+  is_anonymous: false
+}
+ERROR null
+ GET /members 200 in 600ms (next.js: 17ms, proxy.ts: 490ms, application-code: 93ms)
+USER {
+  id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'bilaldarif25@gmail.com',
+  email_confirmed_at: '2026-06-09T21:02:56.162841Z',
+  phone: '',
+  confirmed_at: '2026-06-09T21:02:56.162841Z',
+  last_sign_in_at: '2026-06-09T21:21:27.023462Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: { email_verified: true },
+  identities: [
+    {
+      identity_id: '7a5bb7e4-248a-448c-a127-6128b369f775',
+      id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      user_id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      identity_data: [Object],
+      provider: 'email',
+      last_sign_in_at: '2026-06-09T21:02:56.150276Z',
+      created_at: '2026-06-09T21:02:56.150851Z',
+      updated_at: '2026-06-09T21:02:56.150851Z',
+      email: 'bilaldarif25@gmail.com'
+    }
+  ],
+  created_at: '2026-06-09T21:02:56.138763Z',
+  updated_at: '2026-06-09T21:21:27.048842Z',
+  is_anonymous: false
+}
+ERROR null
+ GET /subscriptions 200 in 447ms (next.js: 9ms, proxy.ts: 374ms, application-code: 64ms)
+USER {
+  id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'bilaldarif25@gmail.com',
+  email_confirmed_at: '2026-06-09T21:02:56.162841Z',
+  phone: '',
+  confirmed_at: '2026-06-09T21:02:56.162841Z',
+  last_sign_in_at: '2026-06-09T21:21:27.023462Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: { email_verified: true },
+  identities: [
+    {
+      identity_id: '7a5bb7e4-248a-448c-a127-6128b369f775',
+      id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      user_id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      identity_data: [Object],
+      provider: 'email',
+      last_sign_in_at: '2026-06-09T21:02:56.150276Z',
+      created_at: '2026-06-09T21:02:56.150851Z',
+      updated_at: '2026-06-09T21:02:56.150851Z',
+      email: 'bilaldarif25@gmail.com'
+    }
+  ],
+  created_at: '2026-06-09T21:02:56.138763Z',
+  updated_at: '2026-06-09T21:21:27.048842Z',
+  is_anonymous: false
+}
+ERROR null
+ GET /dashboard 200 in 1895ms (next.js: 11ms, proxy.ts: 575ms, application-code: 1308ms)
+USER {
+  id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'bilaldarif25@gmail.com',
+  email_confirmed_at: '2026-06-09T21:02:56.162841Z',
+  phone: '',
+  confirmed_at: '2026-06-09T21:02:56.162841Z',
+  last_sign_in_at: '2026-06-09T21:21:27.023462Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: { email_verified: true },
+  identities: [
+    {
+      identity_id: '7a5bb7e4-248a-448c-a127-6128b369f775',
+      id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      user_id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      identity_data: [Object],
+      provider: 'email',
+      last_sign_in_at: '2026-06-09T21:02:56.150276Z',
+      created_at: '2026-06-09T21:02:56.150851Z',
+      updated_at: '2026-06-09T21:02:56.150851Z',
+      email: 'bilaldarif25@gmail.com'
+    }
+  ],
+  created_at: '2026-06-09T21:02:56.138763Z',
+  updated_at: '2026-06-09T21:21:27.048842Z',
+  is_anonymous: false
+}
+ERROR null
+ GET /members 200 in 403ms (next.js: 9ms, proxy.ts: 339ms, application-code: 55ms)
+USER {
+  id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'bilaldarif25@gmail.com',
+  email_confirmed_at: '2026-06-09T21:02:56.162841Z',
+  phone: '',
+  confirmed_at: '2026-06-09T21:02:56.162841Z',
+  last_sign_in_at: '2026-06-09T21:21:27.023462Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: { email_verified: true },
+  identities: [
+    {
+      identity_id: '7a5bb7e4-248a-448c-a127-6128b369f775',
+      id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      user_id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      identity_data: [Object],
+      provider: 'email',
+      last_sign_in_at: '2026-06-09T21:02:56.150276Z',
+      created_at: '2026-06-09T21:02:56.150851Z',
+      updated_at: '2026-06-09T21:02:56.150851Z',
+      email: 'bilaldarif25@gmail.com'
+    }
+  ],
+  created_at: '2026-06-09T21:02:56.138763Z',
+  updated_at: '2026-06-09T21:21:27.048842Z',
+  is_anonymous: false
+}
+ERROR null
+ GET /subscriptions 200 in 617ms (next.js: 14ms, proxy.ts: 475ms, application-code: 128ms)
+USER {
+  id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'bilaldarif25@gmail.com',
+  email_confirmed_at: '2026-06-09T21:02:56.162841Z',
+  phone: '',
+  confirmed_at: '2026-06-09T21:02:56.162841Z',
+  last_sign_in_at: '2026-06-09T21:21:27.023462Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: { email_verified: true },
+  identities: [
+    {
+      identity_id: '7a5bb7e4-248a-448c-a127-6128b369f775',
+      id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      user_id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      identity_data: [Object],
+      provider: 'email',
+      last_sign_in_at: '2026-06-09T21:02:56.150276Z',
+      created_at: '2026-06-09T21:02:56.150851Z',
+      updated_at: '2026-06-09T21:02:56.150851Z',
+      email: 'bilaldarif25@gmail.com'
+    }
+  ],
+  created_at: '2026-06-09T21:02:56.138763Z',
+  updated_at: '2026-06-09T21:21:27.048842Z',
+  is_anonymous: false
+}
+ERROR null
+ GET /check-in 200 in 448ms (next.js: 18ms, proxy.ts: 358ms, application-code: 73ms)
+USER {
+  id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'bilaldarif25@gmail.com',
+  email_confirmed_at: '2026-06-09T21:02:56.162841Z',
+  phone: '',
+  confirmed_at: '2026-06-09T21:02:56.162841Z',
+  last_sign_in_at: '2026-06-09T21:21:27.023462Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: { email_verified: true },
+  identities: [
+    {
+      identity_id: '7a5bb7e4-248a-448c-a127-6128b369f775',
+      id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      user_id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      identity_data: [Object],
+      provider: 'email',
+      last_sign_in_at: '2026-06-09T21:02:56.150276Z',
+      created_at: '2026-06-09T21:02:56.150851Z',
+      updated_at: '2026-06-09T21:02:56.150851Z',
+      email: 'bilaldarif25@gmail.com'
+    }
+  ],
+  created_at: '2026-06-09T21:02:56.138763Z',
+  updated_at: '2026-06-09T21:21:27.048842Z',
+  is_anonymous: false
+}
+ERROR null
+ GET /billing 200 in 393ms (next.js: 15ms, proxy.ts: 327ms, application-code: 52ms)
+USER {
+  id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'bilaldarif25@gmail.com',
+  email_confirmed_at: '2026-06-09T21:02:56.162841Z',
+  phone: '',
+  confirmed_at: '2026-06-09T21:02:56.162841Z',
+  last_sign_in_at: '2026-06-09T21:21:27.023462Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: { email_verified: true },
+  identities: [
+    {
+      identity_id: '7a5bb7e4-248a-448c-a127-6128b369f775',
+      id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      user_id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      identity_data: [Object],
+      provider: 'email',
+      last_sign_in_at: '2026-06-09T21:02:56.150276Z',
+      created_at: '2026-06-09T21:02:56.150851Z',
+      updated_at: '2026-06-09T21:02:56.150851Z',
+      email: 'bilaldarif25@gmail.com'
+    }
+  ],
+  created_at: '2026-06-09T21:02:56.138763Z',
+  updated_at: '2026-06-09T21:21:27.048842Z',
+  is_anonymous: false
+}
+ERROR null
+ GET /billing 200 in 1701ms (next.js: 37ms, proxy.ts: 1036ms, application-code: 628ms)
+USER {
+  id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'bilaldarif25@gmail.com',
+  email_confirmed_at: '2026-06-09T21:02:56.162841Z',
+  phone: '',
+  confirmed_at: '2026-06-09T21:02:56.162841Z',
+  last_sign_in_at: '2026-06-09T21:21:27.023462Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: { email_verified: true },
+  identities: [
+    {
+      identity_id: '7a5bb7e4-248a-448c-a127-6128b369f775',
+      id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      user_id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      identity_data: [Object],
+      provider: 'email',
+      last_sign_in_at: '2026-06-09T21:02:56.150276Z',
+      created_at: '2026-06-09T21:02:56.150851Z',
+      updated_at: '2026-06-09T21:02:56.150851Z',
+      email: 'bilaldarif25@gmail.com'
+    }
+  ],
+  created_at: '2026-06-09T21:02:56.138763Z',
+  updated_at: '2026-06-09T21:21:27.048842Z',
+  is_anonymous: false
+}
+ERROR null
+ GET /subscriptions 200 in 432ms (next.js: 14ms, proxy.ts: 342ms, application-code: 75ms)
+USER {
+  id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'bilaldarif25@gmail.com',
+  email_confirmed_at: '2026-06-09T21:02:56.162841Z',
+  phone: '',
+  confirmed_at: '2026-06-09T21:02:56.162841Z',
+  last_sign_in_at: '2026-06-09T21:21:27.023462Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: { email_verified: true },
+  identities: [
+    {
+      identity_id: '7a5bb7e4-248a-448c-a127-6128b369f775',
+      id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      user_id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      identity_data: [Object],
+      provider: 'email',
+      last_sign_in_at: '2026-06-09T21:02:56.150276Z',
+      created_at: '2026-06-09T21:02:56.150851Z',
+      updated_at: '2026-06-09T21:02:56.150851Z',
+      email: 'bilaldarif25@gmail.com'
+    }
+  ],
+  created_at: '2026-06-09T21:02:56.138763Z',
+  updated_at: '2026-06-09T21:21:27.048842Z',
+  is_anonymous: false
+}
+ERROR null
+ GET /members 200 in 467ms (next.js: 14ms, proxy.ts: 352ms, application-code: 102ms)
+USER {
+  id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'bilaldarif25@gmail.com',
+  email_confirmed_at: '2026-06-09T21:02:56.162841Z',
+  phone: '',
+  confirmed_at: '2026-06-09T21:02:56.162841Z',
+  last_sign_in_at: '2026-06-09T21:21:27.023462Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: { email_verified: true },
+  identities: [
+    {
+      identity_id: '7a5bb7e4-248a-448c-a127-6128b369f775',
+      id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      user_id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      identity_data: [Object],
+      provider: 'email',
+      last_sign_in_at: '2026-06-09T21:02:56.150276Z',
+      created_at: '2026-06-09T21:02:56.150851Z',
+      updated_at: '2026-06-09T21:02:56.150851Z',
+      email: 'bilaldarif25@gmail.com'
+    }
+  ],
+  created_at: '2026-06-09T21:02:56.138763Z',
+  updated_at: '2026-06-09T21:21:27.048842Z',
+  is_anonymous: false
+}
+ERROR null
+ GET /subscriptions 200 in 230ms (next.js: 11ms, proxy.ts: 166ms, application-code: 53ms)
+USER {
+  id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'bilaldarif25@gmail.com',
+  email_confirmed_at: '2026-06-09T21:02:56.162841Z',
+  phone: '',
+  confirmed_at: '2026-06-09T21:02:56.162841Z',
+  last_sign_in_at: '2026-06-09T21:21:27.023462Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: { email_verified: true },
+  identities: [
+    {
+      identity_id: '7a5bb7e4-248a-448c-a127-6128b369f775',
+      id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      user_id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      identity_data: [Object],
+      provider: 'email',
+      last_sign_in_at: '2026-06-09T21:02:56.150276Z',
+      created_at: '2026-06-09T21:02:56.150851Z',
+      updated_at: '2026-06-09T21:02:56.150851Z',
+      email: 'bilaldarif25@gmail.com'
+    }
+  ],
+  created_at: '2026-06-09T21:02:56.138763Z',
+  updated_at: '2026-06-09T21:21:27.048842Z',
+  is_anonymous: false
+}
+ERROR null
+ GET /dashboard 200 in 2.4s (next.js: 45ms, proxy.ts: 165ms, application-code: 2.2s)
+USER {
+  id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'bilaldarif25@gmail.com',
+  email_confirmed_at: '2026-06-09T21:02:56.162841Z',
+  phone: '',
+  confirmed_at: '2026-06-09T21:02:56.162841Z',
+  last_sign_in_at: '2026-06-09T21:21:27.023462Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: { email_verified: true },
+  identities: [
+    {
+      identity_id: '7a5bb7e4-248a-448c-a127-6128b369f775',
+      id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      user_id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      identity_data: [Object],
+      provider: 'email',
+      last_sign_in_at: '2026-06-09T21:02:56.150276Z',
+      created_at: '2026-06-09T21:02:56.150851Z',
+      updated_at: '2026-06-09T21:02:56.150851Z',
+      email: 'bilaldarif25@gmail.com'
+    }
+  ],
+  created_at: '2026-06-09T21:02:56.138763Z',
+  updated_at: '2026-06-09T21:21:27.048842Z',
+  is_anonymous: false
+}
+ERROR null
+ GET /subscriptions 200 in 674ms (next.js: 22ms, proxy.ts: 552ms, application-code: 100ms)
+USER {
+  id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'bilaldarif25@gmail.com',
+  email_confirmed_at: '2026-06-09T21:02:56.162841Z',
+  phone: '',
+  confirmed_at: '2026-06-09T21:02:56.162841Z',
+  last_sign_in_at: '2026-06-09T21:21:27.023462Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: { email_verified: true },
+  identities: [
+    {
+      identity_id: '7a5bb7e4-248a-448c-a127-6128b369f775',
+      id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      user_id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      identity_data: [Object],
+      provider: 'email',
+      last_sign_in_at: '2026-06-09T21:02:56.150276Z',
+      created_at: '2026-06-09T21:02:56.150851Z',
+      updated_at: '2026-06-09T21:02:56.150851Z',
+      email: 'bilaldarif25@gmail.com'
+    }
+  ],
+  created_at: '2026-06-09T21:02:56.138763Z',
+  updated_at: '2026-06-09T21:21:27.048842Z',
+  is_anonymous: false
+}
+ERROR null
+ GET /members 200 in 446ms (next.js: 7ms, proxy.ts: 361ms, application-code: 78ms)
+USER {
+  id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'bilaldarif25@gmail.com',
+  email_confirmed_at: '2026-06-09T21:02:56.162841Z',
+  phone: '',
+  confirmed_at: '2026-06-09T21:02:56.162841Z',
+  last_sign_in_at: '2026-06-09T21:21:27.023462Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: { email_verified: true },
+  identities: [
+    {
+      identity_id: '7a5bb7e4-248a-448c-a127-6128b369f775',
+      id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      user_id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      identity_data: [Object],
+      provider: 'email',
+      last_sign_in_at: '2026-06-09T21:02:56.150276Z',
+      created_at: '2026-06-09T21:02:56.150851Z',
+      updated_at: '2026-06-09T21:02:56.150851Z',
+      email: 'bilaldarif25@gmail.com'
+    }
+  ],
+  created_at: '2026-06-09T21:02:56.138763Z',
+  updated_at: '2026-06-09T21:21:27.048842Z',
+  is_anonymous: false
+}
+ERROR null
+ GET /dashboard 200 in 1894ms (next.js: 12ms, proxy.ts: 467ms, application-code: 1415ms)
+USER {
+  id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'bilaldarif25@gmail.com',
+  email_confirmed_at: '2026-06-09T21:02:56.162841Z',
+  phone: '',
+  confirmed_at: '2026-06-09T21:02:56.162841Z',
+  last_sign_in_at: '2026-06-09T21:21:27.023462Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: { email_verified: true },
+  identities: [
+    {
+      identity_id: '7a5bb7e4-248a-448c-a127-6128b369f775',
+      id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      user_id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      identity_data: [Object],
+      provider: 'email',
+      last_sign_in_at: '2026-06-09T21:02:56.150276Z',
+      created_at: '2026-06-09T21:02:56.150851Z',
+      updated_at: '2026-06-09T21:02:56.150851Z',
+      email: 'bilaldarif25@gmail.com'
+    }
+  ],
+  created_at: '2026-06-09T21:02:56.138763Z',
+  updated_at: '2026-06-09T21:21:27.048842Z',
+  is_anonymous: false
+}
+ERROR null
+ GET /dashboard 200 in 1665ms (next.js: 11ms, proxy.ts: 399ms, application-code: 1255ms)
+USER {
+  id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'bilaldarif25@gmail.com',
+  email_confirmed_at: '2026-06-09T21:02:56.162841Z',
+  phone: '',
+  confirmed_at: '2026-06-09T21:02:56.162841Z',
+  last_sign_in_at: '2026-06-09T21:21:27.023462Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: { email_verified: true },
+  identities: [
+    {
+      identity_id: '7a5bb7e4-248a-448c-a127-6128b369f775',
+      id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      user_id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      identity_data: [Object],
+      provider: 'email',
+      last_sign_in_at: '2026-06-09T21:02:56.150276Z',
+      created_at: '2026-06-09T21:02:56.150851Z',
+      updated_at: '2026-06-09T21:02:56.150851Z',
+      email: 'bilaldarif25@gmail.com'
+    }
+  ],
+  created_at: '2026-06-09T21:02:56.138763Z',
+  updated_at: '2026-06-09T21:21:27.048842Z',
+  is_anonymous: false
+}
+ERROR null
+ GET /billing 200 in 370ms (next.js: 7ms, proxy.ts: 331ms, application-code: 33ms)
+USER {
+  id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'bilaldarif25@gmail.com',
+  email_confirmed_at: '2026-06-09T21:02:56.162841Z',
+  phone: '',
+  confirmed_at: '2026-06-09T21:02:56.162841Z',
+  last_sign_in_at: '2026-06-09T21:21:27.023462Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: { email_verified: true },
+  identities: [
+    {
+      identity_id: '7a5bb7e4-248a-448c-a127-6128b369f775',
+      id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      user_id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      identity_data: [Object],
+      provider: 'email',
+      last_sign_in_at: '2026-06-09T21:02:56.150276Z',
+      created_at: '2026-06-09T21:02:56.150851Z',
+      updated_at: '2026-06-09T21:02:56.150851Z',
+      email: 'bilaldarif25@gmail.com'
+    }
+  ],
+  created_at: '2026-06-09T21:02:56.138763Z',
+  updated_at: '2026-06-09T21:21:27.048842Z',
+  is_anonymous: false
+}
+ERROR null
+ GET /billing 200 in 406ms (next.js: 7ms, proxy.ts: 387ms, application-code: 12ms)
+USER {
+  id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'bilaldarif25@gmail.com',
+  email_confirmed_at: '2026-06-09T21:02:56.162841Z',
+  phone: '',
+  confirmed_at: '2026-06-09T21:02:56.162841Z',
+  last_sign_in_at: '2026-06-09T21:21:27.023462Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: { email_verified: true },
+  identities: [
+    {
+      identity_id: '7a5bb7e4-248a-448c-a127-6128b369f775',
+      id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      user_id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      identity_data: [Object],
+      provider: 'email',
+      last_sign_in_at: '2026-06-09T21:02:56.150276Z',
+      created_at: '2026-06-09T21:02:56.150851Z',
+      updated_at: '2026-06-09T21:02:56.150851Z',
+      email: 'bilaldarif25@gmail.com'
+    }
+  ],
+  created_at: '2026-06-09T21:02:56.138763Z',
+  updated_at: '2026-06-09T21:21:27.048842Z',
+  is_anonymous: false
+}
+ERROR null
+ GET /billing 200 in 259ms (next.js: 8ms, proxy.ts: 183ms, application-code: 68ms)
+USER {
+  id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'bilaldarif25@gmail.com',
+  email_confirmed_at: '2026-06-09T21:02:56.162841Z',
+  phone: '',
+  confirmed_at: '2026-06-09T21:02:56.162841Z',
+  last_sign_in_at: '2026-06-09T21:21:27.023462Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: { email_verified: true },
+  identities: [
+    {
+      identity_id: '7a5bb7e4-248a-448c-a127-6128b369f775',
+      id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      user_id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      identity_data: [Object],
+      provider: 'email',
+      last_sign_in_at: '2026-06-09T21:02:56.150276Z',
+      created_at: '2026-06-09T21:02:56.150851Z',
+      updated_at: '2026-06-09T21:02:56.150851Z',
+      email: 'bilaldarif25@gmail.com'
+    }
+  ],
+  created_at: '2026-06-09T21:02:56.138763Z',
+  updated_at: '2026-06-09T21:21:27.048842Z',
+  is_anonymous: false
+}
+ERROR null
+ GET /subscriptions 200 in 2.8s (next.js: 258ms, proxy.ts: 2.1s, application-code: 405ms)
+USER {
+  id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'bilaldarif25@gmail.com',
+  email_confirmed_at: '2026-06-09T21:02:56.162841Z',
+  phone: '',
+  confirmed_at: '2026-06-09T21:02:56.162841Z',
+  last_sign_in_at: '2026-06-09T21:21:27.023462Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: { email_verified: true },
+  identities: [
+    {
+      identity_id: '7a5bb7e4-248a-448c-a127-6128b369f775',
+      id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      user_id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      identity_data: [Object],
+      provider: 'email',
+      last_sign_in_at: '2026-06-09T21:02:56.150276Z',
+      created_at: '2026-06-09T21:02:56.150851Z',
+      updated_at: '2026-06-09T21:02:56.150851Z',
+      email: 'bilaldarif25@gmail.com'
+    }
+  ],
+  created_at: '2026-06-09T21:02:56.138763Z',
+  updated_at: '2026-06-09T21:21:27.048842Z',
+  is_anonymous: false
+}
+ERROR null
+ GET /check-in 200 in 684ms (next.js: 114ms, proxy.ts: 432ms, application-code: 137ms)
+USER {
+  id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'bilaldarif25@gmail.com',
+  email_confirmed_at: '2026-06-09T21:02:56.162841Z',
+  phone: '',
+  confirmed_at: '2026-06-09T21:02:56.162841Z',
+  last_sign_in_at: '2026-06-09T21:21:27.023462Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: { email_verified: true },
+  identities: [
+    {
+      identity_id: '7a5bb7e4-248a-448c-a127-6128b369f775',
+      id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      user_id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      identity_data: [Object],
+      provider: 'email',
+      last_sign_in_at: '2026-06-09T21:02:56.150276Z',
+      created_at: '2026-06-09T21:02:56.150851Z',
+      updated_at: '2026-06-09T21:02:56.150851Z',
+      email: 'bilaldarif25@gmail.com'
+    }
+  ],
+  created_at: '2026-06-09T21:02:56.138763Z',
+  updated_at: '2026-06-09T21:21:27.048842Z',
+  is_anonymous: false
+}
+ERROR null
+ GET /billing 200 in 438ms (next.js: 30ms, proxy.ts: 309ms, application-code: 99ms)
+USER {
+  id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'bilaldarif25@gmail.com',
+  email_confirmed_at: '2026-06-09T21:02:56.162841Z',
+  phone: '',
+  confirmed_at: '2026-06-09T21:02:56.162841Z',
+  last_sign_in_at: '2026-06-09T21:21:27.023462Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: { email_verified: true },
+  identities: [
+    {
+      identity_id: '7a5bb7e4-248a-448c-a127-6128b369f775',
+      id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      user_id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      identity_data: [Object],
+      provider: 'email',
+      last_sign_in_at: '2026-06-09T21:02:56.150276Z',
+      created_at: '2026-06-09T21:02:56.150851Z',
+      updated_at: '2026-06-09T21:02:56.150851Z',
+      email: 'bilaldarif25@gmail.com'
+    }
+  ],
+  created_at: '2026-06-09T21:02:56.138763Z',
+  updated_at: '2026-06-09T21:21:27.048842Z',
+  is_anonymous: false
+}
+ERROR null
+ GET /subscriptions 200 in 851ms (next.js: 13ms, proxy.ts: 756ms, application-code: 81ms)
+USER {
+  id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'bilaldarif25@gmail.com',
+  email_confirmed_at: '2026-06-09T21:02:56.162841Z',
+  phone: '',
+  confirmed_at: '2026-06-09T21:02:56.162841Z',
+  last_sign_in_at: '2026-06-09T21:21:27.023462Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: { email_verified: true },
+  identities: [
+    {
+      identity_id: '7a5bb7e4-248a-448c-a127-6128b369f775',
+      id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      user_id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      identity_data: [Object],
+      provider: 'email',
+      last_sign_in_at: '2026-06-09T21:02:56.150276Z',
+      created_at: '2026-06-09T21:02:56.150851Z',
+      updated_at: '2026-06-09T21:02:56.150851Z',
+      email: 'bilaldarif25@gmail.com'
+    }
+  ],
+  created_at: '2026-06-09T21:02:56.138763Z',
+  updated_at: '2026-06-09T22:22:43.301838Z',
+  is_anonymous: false
+}
+ERROR null
+ GET /subscriptions 200 in 9.4s (next.js: 23ms, proxy.ts: 8.1s, application-code: 1325ms)
+USER {
+  id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'bilaldarif25@gmail.com',
+  email_confirmed_at: '2026-06-09T21:02:56.162841Z',
+  phone: '',
+  confirmed_at: '2026-06-09T21:02:56.162841Z',
+  last_sign_in_at: '2026-06-09T21:21:27.023462Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: { email_verified: true },
+  identities: [
+    {
+      identity_id: '7a5bb7e4-248a-448c-a127-6128b369f775',
+      id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      user_id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      identity_data: [Object],
+      provider: 'email',
+      last_sign_in_at: '2026-06-09T21:02:56.150276Z',
+      created_at: '2026-06-09T21:02:56.150851Z',
+      updated_at: '2026-06-09T21:02:56.150851Z',
+      email: 'bilaldarif25@gmail.com'
+    }
+  ],
+  created_at: '2026-06-09T21:02:56.138763Z',
+  updated_at: '2026-06-09T22:22:43.301838Z',
+  is_anonymous: false
+}
+ERROR null
+ GET /check-in 200 in 7.4s (next.js: 13ms, proxy.ts: 7.3s, application-code: 114ms)
+USER {
+  id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'bilaldarif25@gmail.com',
+  email_confirmed_at: '2026-06-09T21:02:56.162841Z',
+  phone: '',
+  confirmed_at: '2026-06-09T21:02:56.162841Z',
+  last_sign_in_at: '2026-06-09T21:21:27.023462Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: { email_verified: true },
+  identities: [
+    {
+      identity_id: '7a5bb7e4-248a-448c-a127-6128b369f775',
+      id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      user_id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      identity_data: [Object],
+      provider: 'email',
+      last_sign_in_at: '2026-06-09T21:02:56.150276Z',
+      created_at: '2026-06-09T21:02:56.150851Z',
+      updated_at: '2026-06-09T21:02:56.150851Z',
+      email: 'bilaldarif25@gmail.com'
+    }
+  ],
+  created_at: '2026-06-09T21:02:56.138763Z',
+  updated_at: '2026-06-09T22:22:43.301838Z',
+  is_anonymous: false
+}
+ERROR null
+ GET /check-in 200 in 1928ms (next.js: 8ms, proxy.ts: 1859ms, application-code: 61ms)
+USER {
+  id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'bilaldarif25@gmail.com',
+  email_confirmed_at: '2026-06-09T21:02:56.162841Z',
+  phone: '',
+  confirmed_at: '2026-06-09T21:02:56.162841Z',
+  last_sign_in_at: '2026-06-09T21:21:27.023462Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: { email_verified: true },
+  identities: [
+    {
+      identity_id: '7a5bb7e4-248a-448c-a127-6128b369f775',
+      id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      user_id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      identity_data: [Object],
+      provider: 'email',
+      last_sign_in_at: '2026-06-09T21:02:56.150276Z',
+      created_at: '2026-06-09T21:02:56.150851Z',
+      updated_at: '2026-06-09T21:02:56.150851Z',
+      email: 'bilaldarif25@gmail.com'
+    }
+  ],
+  created_at: '2026-06-09T21:02:56.138763Z',
+  updated_at: '2026-06-09T22:22:43.301838Z',
+  is_anonymous: false
+}
+ERROR null
+ GET /billing 200 in 2.8s (next.js: 10ms, proxy.ts: 2.8s, application-code: 66ms)
+✓ Finished filesystem cache database compaction in 19.2s
+USER {
+  id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'bilaldarif25@gmail.com',
+  email_confirmed_at: '2026-06-09T21:02:56.162841Z',
+  phone: '',
+  confirmed_at: '2026-06-09T21:02:56.162841Z',
+  last_sign_in_at: '2026-06-09T21:21:27.023462Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: { email_verified: true },
+  identities: [
+    {
+      identity_id: '7a5bb7e4-248a-448c-a127-6128b369f775',
+      id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      user_id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      identity_data: [Object],
+      provider: 'email',
+      last_sign_in_at: '2026-06-09T21:02:56.150276Z',
+      created_at: '2026-06-09T21:02:56.150851Z',
+      updated_at: '2026-06-09T21:02:56.150851Z',
+      email: 'bilaldarif25@gmail.com'
+    }
+  ],
+  created_at: '2026-06-09T21:02:56.138763Z',
+  updated_at: '2026-06-09T22:22:43.301838Z',
+  is_anonymous: false
+}
+ERROR null
+ GET /members 200 in 6.6s (next.js: 85ms, proxy.ts: 6.2s, application-code: 298ms)
+USER {
+  id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'bilaldarif25@gmail.com',
+  email_confirmed_at: '2026-06-09T21:02:56.162841Z',
+  phone: '',
+  confirmed_at: '2026-06-09T21:02:56.162841Z',
+  last_sign_in_at: '2026-06-09T21:21:27.023462Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: { email_verified: true },
+  identities: [
+    {
+      identity_id: '7a5bb7e4-248a-448c-a127-6128b369f775',
+      id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      user_id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      identity_data: [Object],
+      provider: 'email',
+      last_sign_in_at: '2026-06-09T21:02:56.150276Z',
+      created_at: '2026-06-09T21:02:56.150851Z',
+      updated_at: '2026-06-09T21:02:56.150851Z',
+      email: 'bilaldarif25@gmail.com'
+    }
+  ],
+  created_at: '2026-06-09T21:02:56.138763Z',
+  updated_at: '2026-06-09T22:22:43.301838Z',
+  is_anonymous: false
+}
+ERROR null
+ GET /members 200 in 371ms (next.js: 19ms, proxy.ts: 209ms, application-code: 143ms)
+USER {
+  id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'bilaldarif25@gmail.com',
+  email_confirmed_at: '2026-06-09T21:02:56.162841Z',
+  phone: '',
+  confirmed_at: '2026-06-09T21:02:56.162841Z',
+  last_sign_in_at: '2026-06-09T21:21:27.023462Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: { email_verified: true },
+  identities: [
+    {
+      identity_id: '7a5bb7e4-248a-448c-a127-6128b369f775',
+      id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      user_id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      identity_data: [Object],
+      provider: 'email',
+      last_sign_in_at: '2026-06-09T21:02:56.150276Z',
+      created_at: '2026-06-09T21:02:56.150851Z',
+      updated_at: '2026-06-09T21:02:56.150851Z',
+      email: 'bilaldarif25@gmail.com'
+    }
+  ],
+  created_at: '2026-06-09T21:02:56.138763Z',
+  updated_at: '2026-06-09T22:22:43.301838Z',
+  is_anonymous: false
+}
+ERROR null
+ GET /members 200 in 316ms (next.js: 21ms, proxy.ts: 175ms, application-code: 119ms)
+USER {
+  id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'bilaldarif25@gmail.com',
+  email_confirmed_at: '2026-06-09T21:02:56.162841Z',
+  phone: '',
+  confirmed_at: '2026-06-09T21:02:56.162841Z',
+  last_sign_in_at: '2026-06-09T21:21:27.023462Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: { email_verified: true },
+  identities: [
+    {
+      identity_id: '7a5bb7e4-248a-448c-a127-6128b369f775',
+      id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      user_id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      identity_data: [Object],
+      provider: 'email',
+      last_sign_in_at: '2026-06-09T21:02:56.150276Z',
+      created_at: '2026-06-09T21:02:56.150851Z',
+      updated_at: '2026-06-09T21:02:56.150851Z',
+      email: 'bilaldarif25@gmail.com'
+    }
+  ],
+  created_at: '2026-06-09T21:02:56.138763Z',
+  updated_at: '2026-06-09T22:22:43.301838Z',
+  is_anonymous: false
+}
+ERROR null
+ GET /dashboard 200 in 2.7s (next.js: 22ms, proxy.ts: 837ms, application-code: 1810ms)
+USER {
+  id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'bilaldarif25@gmail.com',
+  email_confirmed_at: '2026-06-09T21:02:56.162841Z',
+  phone: '',
+  confirmed_at: '2026-06-09T21:02:56.162841Z',
+  last_sign_in_at: '2026-06-09T21:21:27.023462Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: { email_verified: true },
+  identities: [
+    {
+      identity_id: '7a5bb7e4-248a-448c-a127-6128b369f775',
+      id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      user_id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      identity_data: [Object],
+      provider: 'email',
+      last_sign_in_at: '2026-06-09T21:02:56.150276Z',
+      created_at: '2026-06-09T21:02:56.150851Z',
+      updated_at: '2026-06-09T21:02:56.150851Z',
+      email: 'bilaldarif25@gmail.com'
+    }
+  ],
+  created_at: '2026-06-09T21:02:56.138763Z',
+  updated_at: '2026-06-09T22:22:43.301838Z',
+  is_anonymous: false
+}
+ERROR null
+ GET /members 200 in 493ms (next.js: 9ms, proxy.ts: 373ms, application-code: 111ms)
+USER {
+  id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'bilaldarif25@gmail.com',
+  email_confirmed_at: '2026-06-09T21:02:56.162841Z',
+  phone: '',
+  confirmed_at: '2026-06-09T21:02:56.162841Z',
+  last_sign_in_at: '2026-06-09T21:21:27.023462Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: { email_verified: true },
+  identities: [
+    {
+      identity_id: '7a5bb7e4-248a-448c-a127-6128b369f775',
+      id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      user_id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      identity_data: [Object],
+      provider: 'email',
+      last_sign_in_at: '2026-06-09T21:02:56.150276Z',
+      created_at: '2026-06-09T21:02:56.150851Z',
+      updated_at: '2026-06-09T21:02:56.150851Z',
+      email: 'bilaldarif25@gmail.com'
+    }
+  ],
+  created_at: '2026-06-09T21:02:56.138763Z',
+  updated_at: '2026-06-09T22:22:43.301838Z',
+  is_anonymous: false
+}
+ERROR null
+ GET /subscriptions 200 in 2.1s (next.js: 18ms, proxy.ts: 2.1s, application-code: 60ms)
+USER {
+  id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'bilaldarif25@gmail.com',
+  email_confirmed_at: '2026-06-09T21:02:56.162841Z',
+  phone: '',
+  confirmed_at: '2026-06-09T21:02:56.162841Z',
+  last_sign_in_at: '2026-06-09T21:21:27.023462Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: { email_verified: true },
+  identities: [
+    {
+      identity_id: '7a5bb7e4-248a-448c-a127-6128b369f775',
+      id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      user_id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      identity_data: [Object],
+      provider: 'email',
+      last_sign_in_at: '2026-06-09T21:02:56.150276Z',
+      created_at: '2026-06-09T21:02:56.150851Z',
+      updated_at: '2026-06-09T21:02:56.150851Z',
+      email: 'bilaldarif25@gmail.com'
+    }
+  ],
+  created_at: '2026-06-09T21:02:56.138763Z',
+  updated_at: '2026-06-09T22:22:43.301838Z',
+  is_anonymous: false
+}
+ERROR null
+ GET /members 200 in 5.7s (next.js: 9ms, proxy.ts: 5.6s, application-code: 86ms)
+USER null
+ERROR Error [AuthRetryableFetchError]: fetch failed
+    at async updateSession (utils\supabase\middleware.ts:33:7)
+  31 |     data: { user },
+  32 |     error,
+> 33 |   } = await supabase.auth.getUser();
+     |       ^
+  34 |
+  35 |   console.log("USER", user);
+  36 |   console.log("ERROR", error); {
+  __isAuthError: true,
+  status: 0,
+  code: undefined
+}
+USER null
+ERROR Error [AuthRetryableFetchError]: fetch failed
+    at async updateSession (utils\supabase\middleware.ts:33:7)
+  31 |     data: { user },
+  32 |     error,
+> 33 |   } = await supabase.auth.getUser();
+     |       ^
+  34 |
+  35 |   console.log("USER", user);
+  36 |   console.log("ERROR", error); {
+  __isAuthError: true,
+  status: 0,
+  code: undefined
+}
+USER null
+ERROR Error [AuthRetryableFetchError]: fetch failed
+    at async updateSession (utils\supabase\middleware.ts:33:7)
+  31 |     data: { user },
+  32 |     error,
+> 33 |   } = await supabase.auth.getUser();
+     |       ^
+  34 |
+  35 |   console.log("USER", user);
+  36 |   console.log("ERROR", error); {
+  __isAuthError: true,
+  status: 0,
+  code: undefined
+}
+ GET /login?redirectedFrom=%2Fdashboard 200 in 8.9s (next.js: 37ms, proxy.ts: 8.7s, application-code: 138ms)
+USER null
+ERROR Error [AuthRetryableFetchError]: fetch failed
+    at async updateSession (utils\supabase\middleware.ts:33:7)
+  31 |     data: { user },
+  32 |     error,
+> 33 |   } = await supabase.auth.getUser();
+     |       ^
+  34 |
+  35 |   console.log("USER", user);
+  36 |   console.log("ERROR", error); {
+  __isAuthError: true,
+  status: 0,
+  code: undefined
+}
+USER null
+ERROR Error [AuthRetryableFetchError]: fetch failed
+    at async updateSession (utils\supabase\middleware.ts:33:7)
+  31 |     data: { user },
+  32 |     error,
+> 33 |   } = await supabase.auth.getUser();
+     |       ^
+  34 |
+  35 |   console.log("USER", user);
+  36 |   console.log("ERROR", error); {
+  __isAuthError: true,
+  status: 0,
+  code: undefined
+}
+ GET /login?redirectedFrom=%2Fdashboard 200 in 10.8s (next.js: 21ms, proxy.ts: 10.7s, application-code: 76ms)
+USER {
+  id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'bilaldarif25@gmail.com',
+  email_confirmed_at: '2026-06-09T21:02:56.162841Z',
+  phone: '',
+  confirmed_at: '2026-06-09T21:02:56.162841Z',
+  last_sign_in_at: '2026-06-09T21:21:27.023462Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: { email_verified: true },
+  identities: [
+    {
+      identity_id: '7a5bb7e4-248a-448c-a127-6128b369f775',
+      id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      user_id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      identity_data: [Object],
+      provider: 'email',
+      last_sign_in_at: '2026-06-09T21:02:56.150276Z',
+      created_at: '2026-06-09T21:02:56.150851Z',
+      updated_at: '2026-06-09T21:02:56.150851Z',
+      email: 'bilaldarif25@gmail.com'
+    }
+  ],
+  created_at: '2026-06-09T21:02:56.138763Z',
+  updated_at: '2026-06-09T22:22:43.301838Z',
+  is_anonymous: false
+}
+ERROR null
+USER {
+  id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'bilaldarif25@gmail.com',
+  email_confirmed_at: '2026-06-09T21:02:56.162841Z',
+  phone: '',
+  confirmed_at: '2026-06-09T21:02:56.162841Z',
+  last_sign_in_at: '2026-06-09T21:21:27.023462Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: { email_verified: true },
+  identities: [
+    {
+      identity_id: '7a5bb7e4-248a-448c-a127-6128b369f775',
+      id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      user_id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      identity_data: [Object],
+      provider: 'email',
+      last_sign_in_at: '2026-06-09T21:02:56.150276Z',
+      created_at: '2026-06-09T21:02:56.150851Z',
+      updated_at: '2026-06-09T21:02:56.150851Z',
+      email: 'bilaldarif25@gmail.com'
+    }
+  ],
+  created_at: '2026-06-09T21:02:56.138763Z',
+  updated_at: '2026-06-09T22:22:43.301838Z',
+  is_anonymous: false
+}
+ERROR null
+USER {
+  id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'bilaldarif25@gmail.com',
+  email_confirmed_at: '2026-06-09T21:02:56.162841Z',
+  phone: '',
+  confirmed_at: '2026-06-09T21:02:56.162841Z',
+  last_sign_in_at: '2026-06-09T21:21:27.023462Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: { email_verified: true },
+  identities: [
+    {
+      identity_id: '7a5bb7e4-248a-448c-a127-6128b369f775',
+      id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      user_id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      identity_data: [Object],
+      provider: 'email',
+      last_sign_in_at: '2026-06-09T21:02:56.150276Z',
+      created_at: '2026-06-09T21:02:56.150851Z',
+      updated_at: '2026-06-09T21:02:56.150851Z',
+      email: 'bilaldarif25@gmail.com'
+    }
+  ],
+  created_at: '2026-06-09T21:02:56.138763Z',
+  updated_at: '2026-06-09T22:22:43.301838Z',
+  is_anonymous: false
+}
+ERROR null
+USER {
+  id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'bilaldarif25@gmail.com',
+  email_confirmed_at: '2026-06-09T21:02:56.162841Z',
+  phone: '',
+  confirmed_at: '2026-06-09T21:02:56.162841Z',
+  last_sign_in_at: '2026-06-09T21:21:27.023462Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: { email_verified: true },
+  identities: [
+    {
+      identity_id: '7a5bb7e4-248a-448c-a127-6128b369f775',
+      id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      user_id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      identity_data: [Object],
+      provider: 'email',
+      last_sign_in_at: '2026-06-09T21:02:56.150276Z',
+      created_at: '2026-06-09T21:02:56.150851Z',
+      updated_at: '2026-06-09T21:02:56.150851Z',
+      email: 'bilaldarif25@gmail.com'
+    }
+  ],
+  created_at: '2026-06-09T21:02:56.138763Z',
+  updated_at: '2026-06-09T22:22:43.301838Z',
+  is_anonymous: false
+}
+ERROR null
+USER {
+  id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'bilaldarif25@gmail.com',
+  email_confirmed_at: '2026-06-09T21:02:56.162841Z',
+  phone: '',
+  confirmed_at: '2026-06-09T21:02:56.162841Z',
+  last_sign_in_at: '2026-06-09T21:21:27.023462Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: { email_verified: true },
+  identities: [
+    {
+      identity_id: '7a5bb7e4-248a-448c-a127-6128b369f775',
+      id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      user_id: '7976a659-8f60-4f05-a81c-f87053a96f6e',
+      identity_data: [Object],
+      provider: 'email',
+      last_sign_in_at: '2026-06-09T21:02:56.150276Z',
+      created_at: '2026-06-09T21:02:56.150851Z',
+      updated_at: '2026-06-09T21:02:56.150851Z',
+      email: 'bilaldarif25@gmail.com'
+    }
+  ],
+  created_at: '2026-06-09T21:02:56.138763Z',
+  updated_at: '2026-06-09T22:22:43.301838Z',
+  is_anonymous: false
+}
+ERROR null
+ GET /dashboard?redirectedFrom=%2Fdashboard 200 in 26.6s (next.js: 6ms, proxy.ts: 10.5s, application-code: 16.1s)
+ GET /dashboard?redirectedFrom=%2Fdashboard 200 in 16.8s (next.js: 18ms, proxy.ts: 3.8s, application-code: 13.0s)
