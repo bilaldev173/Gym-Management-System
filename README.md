@@ -22,10 +22,6 @@ Modern gym management platform built with Next.js, TypeScript, Tailwind CSS and 
 - Supabase
 - Tailwind CSS
 
-## Screenshots
-
-(Add screenshots)
-
 ## Installation
 
 npm install
